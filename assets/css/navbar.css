@@ -1,0 +1,54 @@
+/* Navbar specific styles */
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.nav-link {
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: 600;
+  color: white;
+}
+
+/* Theme toggle button */
+#themeToggle {
+  transition: all 0.3s ease;
+  opacity: 0.8;
+}
+
+#themeToggle:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* Profile dropdown */
+.profile-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.profile-icon:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
